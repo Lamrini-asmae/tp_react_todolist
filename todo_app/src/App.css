@@ -1,4 +1,7 @@
 
+body{
+  background-color: rgb(245, 226, 245);
+}
 .App{
   background-color: rgb(225, 216, 249);
   border-top: solid 8px rgb(164, 15, 205);
@@ -11,6 +14,7 @@
 .container-todoLsit{
   display: flex;
   flex-direction: column;
+
 }
 .container-todoLsit input{
   padding: 10px;
@@ -25,6 +29,9 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  width: 30%;
+  margin: 10px auto;
+
 }
 
 .container-todoLsit ul li {
